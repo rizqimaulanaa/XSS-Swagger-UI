@@ -15,7 +15,7 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /M0X0101:
+  /rzqmln:
     get:
       responses:
         '200':

